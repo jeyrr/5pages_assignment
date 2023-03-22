@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bitter:ital,wght@1,500&family=Kanit:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#header_container{
+  text-align: center;
+  background: black;
+  padding: 20px;
+  height: 1000px;
+}
+
+#mini_nav ul{
+  list-style-type: none;
+}
+
+#mini_nav li {
+  float: right;
+  padding-right: 10px;
+}
+
+#mini_nav li a {
+  display: block;
+  background-color: #1A1A1A;
+  border-radius: 50px;
+  width: 100px;
+  font-size: 13px;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#mini_nav li a:hover{
+  background-color: white;
+  color: black;
+}
+
+#footer_mini_nav ul{
+  list-style-type: none;
+}
+
+#footer_mini_nav li {
+  /* float: left; */
+  padding-right: 0px;
+}
+
+#footer_mini_nav li a{
+  display: block;
+  /* background-color: #1A1A1A; */
+  /* border-radius: 50px; */
+  width: auto;
+  font-size: 13px;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#footer_mini_nav li a:hover{
+  background-color: white;
+  color: black;
+}
+
+#title_container{
+  margin-top:13%;
+}
+
+#main_title{
+  animation: drop-in 1s ease 200ms backwards;
+  color: white;
+  font-size: 91px;
+  font-weight: 400;
+  padding-top:126px;
+}
+
+#main_title_about_me{
+  animation: drop-in 1s ease 200ms backwards;
+line-height: 37px;
+color: white;
+font-size: 22px;
+font-weight: 400;
+padding-top: 126px;
+}
+}
+
+@keyframes drop-in {
+ from {
+  opacity: 0;
+  transform: translateY(-100px);
+ }
+ to {
+  opacity: 1;
+  transform: translate(0px);
+ }
+}
+
+#sub_title{
+  color: white;
+}
+
+#footer_container{
+      margin-top: 18%;
+}
+#logo_container{
+  margin-top: 14px;
+  margin-left: 80px;
+  width: 71px;
+  height: 100px;
+  float: left;
+}
+
+#logo_container img{
+  width: 100%;
+  height: auto;
+}
+.svg_container{text-align: center;}
+.svg_title{
+  text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+@media only screen and (max-width: 778px) {
+  #logo_container{margin-left: 0px;}
+  #main_title{
+    padding-top: 0px;
+    font-size: 30px;
+  }
+  #mini_nav{display: none;}
+  .work_img_container{padding: 20px !important;}
+}
+
+@media only screen and (max-width: 526px) {
+  #main_title{padding-top: 150px;}
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+}
+
+@media only screen and (max-width: 480px) {
+  #main_title{padding-top: 150px;}
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+}
+@media only screen and (max-width: 478px) {
+  #main_title{padding-top: 0px;}
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+}
+@media only screen and (max-width: 433px) {
+  #always_working_title{font-size: 41px;text-align: center;}
+  #skill_title{text-align: center !important; font-size: 21px !important;}
+  .repos{float: none !important;}
+  .skills_container{margin-left: 0px !important; }
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+}
+@media only screen and (max-width: 414px) {
+  .repos{float: none !important;}
+  .skills_container{margin-left: 0px !important; }
+  .work_img_container img{width: 100% !important;}
+  #skill_title{text-align: center !important; font-size: 30px;}
+  #always_working_title{font-size: 31px;text-align: center;}
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+  #logo_container{margin-left: 0px;}
+  #logo_container img{width: 50px;}
+  #header_container{height: 906px;}
+  #title_container{    margin-top: 68%;}
+}
+@media only screen and (max-width: 390px) {
+  #main_title{padding-top:0px;font-size: 33px;}
+  #electronics_title{font-size: 21px !important; padding-left: 10px!important;}
+  #python_title{font-size: 21px !important;   text-align: center !important;}
+  #repo_list_python .repos{float: none !important;}
+  #skill_title{font-size: 25px !important; padding-top: 90px !important;}
+  .work_title{font-size: 25px !important; padding-top:0px !important;}
+  .repos{float: none !important;}
+  .skills_container{margin-left: 0px !important; }
+  #sub_title{font-size: 13px;}
+}
+@media only screen and (max-width: 362px) {
+  #main_title{padding-top: 0px;}
+  #electronics_title{font-size: 21px !important;}
+  #python_title{font-size: 21px !important;}
+}
+@media only screen and (max-width: 349px) {
+  #main_title{padding-top: 0px;}
+  #electronics_title{font-size: 18px !important;}
+  #python_title{font-size: 18px !important;}
+}
+/* ended here */
